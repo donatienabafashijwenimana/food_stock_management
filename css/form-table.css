@@ -1,0 +1,60 @@
+.form{
+    background-color: rgba(128, 128, 128, 0.356);
+    width:100%;
+    height: 25pc;
+    position: absolute;
+    top: 4.5pc;
+    
+}
+.formh{
+    display:none;
+}
+form{
+    color: blue;
+    background-color: white;
+    width: 40%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding:1pc;
+    margin:2pc 20%;
+    border-radius: 1pc;
+    animation: anm 1s
+}
+@keyframes anm{
+    from{
+        transform: translatey(-300px);
+    }
+}
+a{
+    text-decoration: none;
+}
+input,select{
+    width:100%;
+    height:2pc;
+    border: 1px solid blue;
+    padding-left: 4px;
+    outline: none;
+    font-size: 1pc;
+    border-radius: 0.3pc;
+    margin-bottom: 1pc;
+}
+input[type=submit]:hover{
+    background-color: rgb(115, 115, 243);
+}
+input[type=submit]{
+    background-color: blue;
+    border: none;
+    border-radius: 0.3pc;
+    color: white;
+    font-size: 1.5pc;
+}
+label{
+    font-weight: 500pc;
+    color: black;
+    font-size: 1.5pc;
+    
+}.report{
+    width:30%;
+
+}

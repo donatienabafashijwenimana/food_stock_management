@@ -1,0 +1,63 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    color: blue;
+}
+.header{
+    text-transform:uppercase;
+    height:4pc;
+    font-size: 2pc;
+    align-items: center;
+    padding-top: 0.5pc;
+    color: blue;
+    padding-left: 1pc;
+    background-color: white;
+    border-bottom: 1px solid blue;
+    box-shadow: 0 0 20px blue ;
+
+}
+form{
+    color: blue;
+    background-color: white;
+    width: 40%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding:1pc;
+    margin:2pc 20%;
+    border-radius: 1pc;
+}
+a{
+    text-decoration: none;
+}
+input,select{
+    width:100%;
+    height:2pc;
+    border: 1px solid blue;
+    padding-left: 4px;
+    outline: none;
+    font-size: 1pc;
+    border-radius: 0.3pc;
+    margin-bottom: 1pc;
+}
+input[type=submit]:hover{
+    background-color: rgb(115, 115, 243);
+}
+input[type=submit]{
+    background-color: blue;
+    border: none;
+    border-radius: 0.3pc;
+    color: white;
+    font-size: 1.5pc;
+}
+label{
+    font-weight: 500pc;
+    color: black;
+    font-size: 1.5pc;
+    
+}
+.report{
+display: flex;
+}
